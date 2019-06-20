@@ -45,9 +45,9 @@ def get_mb_attractions(url, data = None):
         print(data)
 
 
-# get_mb_attractions(url_mb)
-# for single_url in urls:
-#     get_attractions(single_url)
+get_mb_attractions(url_mb)
+for single_url in urls:
+    get_attractions(single_url)
 
 
 # web_data = requests.get(url_saves, headers=headers)
