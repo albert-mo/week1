@@ -16,12 +16,18 @@ with open('E:/python/project/week1/parctice/practice2/1_2_homework_required/inde
 for title, price, scoring_amount, scoring_star, image in zip(titles, prices, scoring_amounts, scoring_stars, images):
     data = {
         'title': title.get_text(),
-        'title': title.get_text(),
-        'title': title.get_text(),
-        'title': title.get_text(),
-        'title': title.get_text()
+        'price': price.get_text(),
+        'scoring_amount': scoring_amount.get_text(),
+        'scoring_star': scoring_star.find_all("span", class_='glyphicon glyphicon-star'),
+        'image': image.get('src')
     }
+    info.append(data)
+    # print(data)
 
+
+for i in info:
+    if len(i['scoring_star']) == 4:
+        print(i['title'])
 '''
 body > div:nth-child(2) > div > div.col-md-9 > div:nth-child(2) > div:nth-child(3) > div > img
 body > div:nth-child(2) > div > div.col-md-9 > div:nth-child(2) > div:nth-child(3) > div > div.caption > h4:nth-child(2) > a
