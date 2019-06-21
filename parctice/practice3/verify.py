@@ -8,7 +8,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from PIL import Image
 import time
 
-
 def get_snap():
     '''
     对整个网页截图，保存成图片，然后用PIL.Image拿到图片对象
@@ -17,7 +16,6 @@ def get_snap():
     driver.save_screenshot('snap.png')
     page_snap_obj=Image.open('snap.png')
     return page_snap_obj
-
 
 def get_image():
     '''
@@ -108,6 +106,14 @@ try:
     driver.get('https://account.geetest.com/login')
     wait=WebDriverWait(driver,10)
 
+
+    # 输入账号密码
+    input_email=driver.find_element_by_css_selector('#base > div.content-outter > div > div.inner-conntent > div:nth-child(3) > div > form > div:nth-child(1) > div > div > div > input')
+    input_password=driver.find_element_by_css_selector('#base > div.content-outter > div > div.inner-conntent > div:nth-child(3) > div > form > div:nth-child(2) > div > div:nth-child(1) > div > input')
+    input_email.send_keys('18611453110@163.com')
+    input_password.send_keys('linhaifeng123')
+
+
     #步骤一：先点击按钮，弹出没有缺口的图片
     button=wait.until(EC.presence_of_element_located((By.CLASS_NAME,'geetest_radar_tip')))
     button.click()
@@ -149,12 +155,12 @@ try:
 
 
     #步骤八：完成登录
-    input_email=driver.find_element_by_id('email')
-    input_password=driver.find_element_by_id('password')
+    # input_email=driver.find_element_by_id('email')
+    # input_password=driver.find_element_by_id('password')
     button=wait.until(EC.element_to_be_clickable((By.CLASS_NAME,'login-btn')))
 
-    input_email.send_keys('18611453110@163.com')
-    input_password.send_keys('linhaifeng123')
+    # input_email.send_keys('18611453110@163.com')
+    # input_password.send_keys('linhaifeng123')
     # button.send_keys(Keys.ENTER)
     button.click()
 
