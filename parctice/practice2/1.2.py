@@ -22,11 +22,11 @@ for title, price, scoring_amount, scoring_star, image in zip(titles, prices, sco
         'image': image.get('src')
     }
     info.append(data)
-    # print(data)
+    print(data)
 
 
 for i in info:
-    if len(i['scoring_star']) == 4:
+    if len(i['scoring_star']) == 5:
         print(i['title'])
 '''
 body > div:nth-child(2) > div > div.col-md-9 > div:nth-child(2) > div:nth-child(3) > div > img
