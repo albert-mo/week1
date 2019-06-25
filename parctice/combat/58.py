@@ -6,7 +6,8 @@ import time
 
 headers = {
     'user-agent': 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1',
-    'cookie': 'f=n; commontopbar_new_city_info=1%7C%E5%8C%97%E4%BA%AC%7Cbj; f=n; commontopbar_new_city_info=1%7C%E5%8C%97%E4%BA%AC%7Cbj; f=n; commontopbar_new_city_info=1%7C%E5%8C%97%E4%BA%AC%7Cbj; userid360_xml=DFC3578475B773D978187477C5F6F73D; time_create=1563939159227; id58=e87rZl0QRBKw2bbdAxmkAg==; f=n; city=bj; 58home=bj; commontopbar_new_city_info=1%7C%E5%8C%97%E4%BA%AC%7Cbj; 58tj_uuid=415b707b-fc05-4fe4-b9ae-942a5e6e1636; commontopbar_ipcity=wh%7C%E6%AD%A6%E6%B1%89%7C0; als=0; xxzl_deviceid=BzLf%2FmIlB5YG%2BHrinaMuH2QtbWDGaKexfa5BoSyAmSIL13nz0xvNadpvhednG%2BWv; sessionid=ea0e3319-8e20-415c-90e9-0380ae468f4f; gr_user_id=404c308f-3383-46e1-80f7-5eafa276f0b9; wmda_uuid=68b301614674e69f83bcf87b6552d608; wmda_new_uuid=1; wmda_visited_projects=%3B1409632296065; Hm_lvt_3bb04d7a4ca3846dcc66a99c3e861511=1561347158; Hm_lvt_e15962162366a86a6229038443847be7=1561347159; Hm_lpvt_3bb04d7a4ca3846dcc66a99c3e861511=1561353352; Hm_lpvt_e15962162366a86a6229038443847be7=1561353352; xzfzqtoken=zq8mFcF0d5ipTbv%2F1sOXPRsigbuTQgzdxt5MOBY%2BR90Tl3YjMf%2BWA9cQpGGV6Lcpin35brBb%2F%2FeSODvMgkQULA%3D%3D; wmda_session_id_1409632296065=1561357420549-c607d6d6-4673-ebe0; gr_session_id_98e5a48d736e5e14=c99067df-42f2-4125-b1df-96662c1daf45; gr_session_id_98e5a48d736e5e14_c99067df-42f2-4125-b1df-96662c1daf45=true; new_session=1; new_uv=3; utm_source=; spm=; init_refer=https%253A%252F%252Fcallback.58.com%252Ffirewall%252Fverifycode%253FserialId%253D6317b6990d975b90c3b969dbcc75f9b4_c81c137f65904797abe0e701883e8a50%2526code%253D22%2526sign%253D6675643442a9c99f0dda41d1c440a22c%2526namespace%253Dhuangyelistpc%2526url%253Dhttps%25253A%25252F%25252Finfo5.58.com%25252Fbj%25252Fpbdn%25252F0%25252Fpn1%25252F%25253FPGTID%25253D0d300000-0000-02ae-cc16-24d8537fb2f1%252526ClickID%25253D1'
+    'cookie': 'f=n; commontopbar_new_city_info=1%7C%E5%8C%97%E4%BA%AC%7Cbj; f=n; commontopbar_new_city_info=1%7C%E5%8C%97%E4%BA%AC%7Cbj; f=n; commontopbar_new_city_info=1%7C%E5%8C%97%E4%BA%AC%7Cbj; userid360_xml=DFC3578475B773D978187477C5F6F73D; time_create=1563939159227; id58=e87rZl0QRBKw2bbdAxmkAg==; f=n; city=bj; 58home=bj; commontopbar_new_city_info=1%7C%E5%8C%97%E4%BA%AC%7Cbj; 58tj_uuid=415b707b-fc05-4fe4-b9ae-942a5e6e1636; commontopbar_ipcity=wh%7C%E6%AD%A6%E6%B1%89%7C0; als=0; xxzl_deviceid=BzLf%2FmIlB5YG%2BHrinaMuH2QtbWDGaKexfa5BoSyAmSIL13nz0xvNadpvhednG%2BWv; sessionid=ea0e3319-8e20-415c-90e9-0380ae468f4f; gr_user_id=404c308f-3383-46e1-80f7-5eafa276f0b9; wmda_uuid=68b301614674e69f83bcf87b6552d608; wmda_new_uuid=1; wmda_visited_projects=%3B1409632296065; Hm_lvt_3bb04d7a4ca3846dcc66a99c3e861511=1561347158; Hm_lvt_e15962162366a86a6229038443847be7=1561347159; Hm_lpvt_3bb04d7a4ca3846dcc66a99c3e861511=1561353352; Hm_lpvt_e15962162366a86a6229038443847be7=1561353352; xzfzqtoken=zq8mFcF0d5ipTbv%2F1sOXPRsigbuTQgzdxt5MOBY%2BR90Tl3YjMf%2BWA9cQpGGV6Lcpin35brBb%2F%2FeSODvMgkQULA%3D%3D; wmda_session_id_1409632296065=1561357420549-c607d6d6-4673-ebe0; gr_session_id_98e5a48d736e5e14=c99067df-42f2-4125-b1df-96662c1daf45; gr_session_id_98e5a48d736e5e14_c99067df-42f2-4125-b1df-96662c1daf45=true; new_session=1; new_uv=3; utm_source=; spm=; init_refer=https%253A%252F%252Fcallback.58.com%252Ffirewall%252Fverifycode%253FserialId%253D6317b6990d975b90c3b969dbcc75f9b4_c81c137f65904797abe0e701883e8a50%2526code%253D22%2526sign%253D6675643442a9c99f0dda41d1c440a22c%2526namespace%253Dhuangyelistpc%2526url%253Dhttps%25253A%25252F%25252Finfo5.58.com%25252Fbj%25252Fpbdn%25252F0%25252Fpn1%25252F%25253FPGTID%25253D0d300000-0000-02ae-cc16-24d8537fb2f1%252526ClickID%25253D1',
+    'Referer': 'https://bj.58.com/pingbandiannao/26062681492781x.shtml?adtype=1&entinfo=26062681492781_q&adact=3&psid=121770456204659668829687360&iuType=q_2&link_abtest=&ClickID=3&PGTID=0d300000-0000-0f11-a812-aac18c5d4b8a&slot=1000019'
 }
 goods_list = []
 goods_detail = []
@@ -36,6 +37,21 @@ def get_list(url):
     return goods_list
 
 
+def get_count_url(detail_url):
+    base_url = 'https://jst1.58.com/counter?infoid={}&userid=&uname=&sid=0&lid=0&px=0&cfpath='
+    count_url = base_url.format(detail_url.split('/')[4].split('x')[0])
+    return count_url
+
+
+def get_count(detail_url):
+    web_data = requests.get(get_count_url(detail_url), headers=headers)
+    time.sleep(1)
+    soup = BeautifulSoup(web_data.text, 'lxml')
+    body = soup.select_one('body').get_text()
+    total = body.split('=')[2]
+    return total
+
+
 def get_detail(url):
     web_data = requests.get(url, headers=headers)
     time.sleep(2)
@@ -45,21 +61,23 @@ def get_detail(url):
     posting_time = soup.select_one('div.detail-title > div.detail-title__info > div:nth-child(1)')
     price = soup.select_one('div.infocard__container__item__main > span')
     address = soup.select_one('div.infocard__container.haveswitch > div:nth-child(2) > div.infocard__container__item__main')
+    total_count = get_count(url)
     detail = {
         'category': category.get_text(),
         'title': title.get_text(),
         'posting_time': posting_time.get_text(),
         'price': price.get_text(),
         'address': address.get_text(),
+        'total_count': total_count
     }
     return detail
 
 
 for i in range(1, 2):
-    # detail_url = get_list(get_url(i))[0]['url']
+    detail_url = get_list(get_url(i))[0]['url']
     # detail_url = 'https://bj.58.com/pingbandiannao/38574077861893x.shtml?link_abtest=&psid=145025750204651111695161274&entinfo=38574077861893_p&slot=-1'
-    # print(get_detail(detail_url))
     detail_urls = get_list(get_url(i))
+    # print(get_detail(detail_url))
     print('There are {} goods info to pull'.format(len(detail_urls)))
     # print(detail_urls)
     for detail_url in detail_urls:
